@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 550px;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.full-part {
+  margin-top: 100px;
+  display: flex;
+  box-shadow: 4px 7px 20px 0 rgb(125, 125, 125);
+  border-radius: 25px;
+  margin-bottom: 100px;
+}
+
+.left-part {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 25px;
+  padding: 35px;
+  text-align: center;
+}
+
+.left-part h1 {
+  color: hsl(241, 100%, 89%);
+  font-size: 1.1rem;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.circle h2 {
+  color: white;
+  font-size: 3.5rem;
+}
+.circle span {
+  color: hsl(241, 100%, 89%);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.circle-content {
+  margin: 30px 0;
+  padding-top: 30px;
+}
+
+.left-part h3 {
+  color: white;
+  font-size: 1.5rem;
+  margin: 15px 0;
+}
+
+.left-part p {
+  font-size: 0.9rem;
+  color: hsl(241, 100%, 89%);
+  padding-bottom: 10px;
+}
+
+.right-part {
+  width: 100%;
+  padding: 35px;
+}
+
+.right-part h1 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding-bottom: 10px;
+}
+
+.result {
+  display: flex;
+  padding: 12px 10px;
+  align-items: center;
+  margin: 12px 0;
+}
+
+.result img {
+  height: 19px;
+}
+.result p {
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+.result span {
+  font-weight: 800;
+  font-size: 0.8rem;
+  margin-right: 70px;
+}
+
+#r-1 span {
+  color: hsl(0, 100%, 67%);
+}
+
+#r-1 {
+  background-color: hsl(0, 100%, 97%);
+  border-radius: 10px;
+}
+#r-2 span {
+  color: hsl(39, 100%, 56%);
+}
+
+#r-2 {
+  background-color: hsl(40, 100%, 97%);
+  border-radius: 10px;
+}
+#r-3 span {
+  color: hsl(166, 100%, 37%);
+}
+
+#r-3 {
+  background-color: hsl(166, 100%, 97%);
+  border-radius: 10px;
+}
+#r-4 span {
+  color: hsl(234, 85%, 45%);
+}
+
+#r-4 {
+  background-color: hsl(234, 100%, 96%);
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  margin-top: 20px;
+  padding: 15px 85px;
+  color: white;
+  font-weight: 700;
+  font-size: 0.9rem;
+  border-radius: 25px;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: translateX(10px);
+}

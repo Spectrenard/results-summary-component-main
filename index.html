@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="full-part">
+      <div class="left-part">
+        <h1>Your Result</h1>
+        <div class="circle">
+          <div class="circle-content">
+            <h2>76</h2>
+            <span>of 100</span>
+          </div>
+        </div>
+        <h3>Great</h3>
+        <p>
+          You scored higher than 65% of the people who have taken these tests
+        </p>
+      </div>
+
+      <!-- --------------------RIGHT PART ---------------- -->
+      <div class="right-part">
+        <h1>Summary</h1>
+        <div class="result" id="r-1">
+          <img src="./assets/images/icon-reaction.svg" alt="" />
+          <span>Reaction</span>
+          <p class="value"></p>
+        </div>
+
+        <div class="result" id="r-2">
+          <img src="./assets/images/icon-memory.svg" alt="" />
+          <span>Memory</span>
+          <p class="value"></p>
+        </div>
+
+        <div class="result" id="r-3">
+          <img src="./assets/images/icon-verbal.svg" alt="" />
+          <span>Verbal</span>
+          <p class="value"></p>
+        </div>
+
+        <div class="result" id="r-4">
+          <img src="./assets/images/icon-visual.svg" alt="" />
+          <span>Visual</span>
+          <p class="value"></p>
+          <br />
+        </div>
+        <button>Continue</button>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
